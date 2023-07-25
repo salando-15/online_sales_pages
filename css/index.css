@@ -1,12 +1,16 @@
+.container{
+  background: #121212;
+}
+
 .nav{
   display: grid;
   background: #000000;
-  grid-template-columns: 140px 1fr 140px;
+  grid-template-columns: 8.75rem 1fr 8.75rem;
 }
 
 .nav__logo{
   display: flex;
-  height: 60px;
+  height: 3.75rem;
   width: 100%;
   user-select: none;
   cursor: pointer;
@@ -44,6 +48,7 @@
 }
 
 .boton-carrito{
+  position: relative;
   color: #f5f5f7;
   border: #f5f5f7 solid 2px;
   display: flex;
@@ -52,10 +57,10 @@
   align-items: end;
   gap: 1px;
   padding: 4px;
-  margin: 8px;
+  margin: 4px;
   font-weight: 400;
-  height: 44px;
-  max-height: 52px;
+  height: 2.75rem;
+  max-height: 3.25rem;
   transition: all .2s ease-out;
 }
 
@@ -66,6 +71,10 @@
   -1px 1px 8px #9e8bd9,
   1px -1px 8px #9e8bd9,
   -1px -1px 8px #9e8bd9;
+}
+
+.boton-carrito__container-image{
+  max-height: 3.5rem;
 }
 
 .boton-carrito__container-image__circulo{
@@ -82,16 +91,59 @@
   top: 1rem;
 }
 
-.carrusel__image{
+.carrusel{
   position: relative;
+  text-align: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  margin: 4px 0 20px 0;
 }
 
-.carrusel__blur{
-  position: relative;
-  filter: blur(10px);
-  background: rgba(0, 0, 0, .40);
-  height: 100vh;
-  width: 100vw;
+.carrusel__slider--2{
+  display: none;
+}
+
+.carrusel__slider--3{
+  display: none;
+}
+
+.carrusel__slider__image{
+  height: 100%;
+  width: 100%;
+  filter: blur(2.5px);
+  object-fit: cover;
+}
+
+.carrusel__slider__text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #f5f5f7;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.carrusel--arrow-right{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.carrusel--arrow-left{
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.eslogan{
+  font-size: 84px;
+  font-weight: 900;
+  color: #F5F5F7;
+  text-align: center;
+  line-height: normal;
 }
