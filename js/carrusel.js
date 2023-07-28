@@ -30,4 +30,3 @@ arrowLeft.addEventListener("click", () => {
     slides[currentSlider].style.display = "block"
   }
 })
-
