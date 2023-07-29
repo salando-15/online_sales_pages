@@ -22,6 +22,6 @@ video {
   user-select: none;
 }
 
-body {
+html {
   scroll-behavior: smooth;
 }

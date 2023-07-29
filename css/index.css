@@ -1,5 +1,6 @@
 .container {
   background: #121212;
+  transition: background .2s ease-in;
 }
 
 .nav {
@@ -19,8 +20,14 @@
   cursor: pointer;
 }
 
-.nav__logo__img {
+.nav__logo__container-image {
+  display: block;
+  height: 100%;
+}
+
+.nav__logo__container-image__img {
   width: 100%;
+  height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -98,7 +105,7 @@
   top: 1rem;
 }
 
-.mode-button{
+.mode-button {
   display: flex;
   position: fixed;
   z-index: 1;
@@ -112,10 +119,10 @@
   text-align: center;
   height: 100vh;
   width: 100%;
-  margin: 4px 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
-.carrusel__slider{
+.carrusel__slider {
   cursor: pointer;
 }
 
@@ -154,20 +161,24 @@
   font-weight: 700;
 }
 
-.carrusel--arrow-right {
+.carrusel__arrow {
   position: absolute;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transform: translate(-50%, -50%);
+}
+
+.carrusel--arrow-right {
   top: 50%;
   left: 5%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
 }
 
 .carrusel--arrow-left {
-  position: absolute;
   top: 50%;
   left: 95%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
 }
 
 .eslogan {
@@ -176,34 +187,46 @@
   color: #F5F5F7;
   text-align: center;
   line-height: normal;
+  transition: color .2s ease-in;
 }
 
-.line{
+.line {
   margin: 4px auto;
   width: 95%;
   height: 5px;
   background: #291C52;
 }
 
-.productos{
+.line--grid {
+  grid-column: 1 / span 3;
+}
+
+.productos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-.card{
+.card {
   display: flex;
   flex-flow: column nowrap;
-  justify-content:space-around;
+  justify-content: space-around;
   height: 520px;
   margin: 20px;
   gap: 8px;
   background: #3C3452;
   border-radius: 15px;
   padding: 8px 20px;
+  cursor: pointer;
 }
 
-.card__title{
+.card:hover .card__link {
+  font-style: italic;
+  color: #9e8bd9;
+  text-decoration: underline;
+}
+
+.card__title {
   display: flex;
   justify-content: center;
   color: #F5F5F7;
@@ -211,10 +234,41 @@
   font-weight: 700;
 }
 
-.card__image-container__img{
+.card__image-container__img {
   width: 100%;
+  height: 392px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-height: 24.75rem;
 }
 
-.card__link{
+.card__link {
+  display: block;
   color: #F5F5F7;
+  margin: 4px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__boton-de-inicio {
+  display: flex;
+  width: 90vw;
+  background: #6A48D1;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius: 15px;
+  color: #F5F5F7;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 28px;
+  transition: background .2s ease-in-out;
+}
+
+.footer__boton-de-inicio:hover {
+  background: #9e8bd9;
 }

@@ -1,6 +1,6 @@
-mixin card(nameProducto)
+mixin card(nameProducto, image, alt)
   .card
     h3.card__title #{nameProducto}
     picture
-      img(src="images/laptop-2.jpg", alt="").card__image-container__img
-    .card__link Ver más
+      img(src=image, alt=alt, load="lazy").card__image-container__img
+    a(href="").card__link Ver más
