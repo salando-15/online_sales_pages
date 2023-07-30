@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "pug": "^3.0.2"
+  },
+  "name": "paginawebemprendimiento",
+  "version": "0.2.0",
+  "description": "Pagina de emprendimiento",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaulOrlando/online_sales_pages.git"
+  },
+  "keywords": ["pug", "css"],
+  "author": "Salando",
+  "license": "ISC",
+  "bin": {
+    "run": "scripts/run.sh"
   }
 }

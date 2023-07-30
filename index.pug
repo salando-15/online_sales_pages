@@ -2,32 +2,31 @@ doctype html
 html(lang="es")
 	head
 		include includes/head.pug
-			link(rel="stylesheet", href="css/reset.css")
-			link(rel="stylesheet", href="css/index.css")
-			link(rel="icon", href="images/Kingdom Technology.jpeg")
-			title Empresa
+		link(rel="stylesheet", href="/css/reset.css")
+		link(rel="stylesheet", href="/css/index.css")
+		link(rel="icon", href="/images/Kingdom Technology.jpeg")
 	body.container#inicio
 		include includes/mixins.pug
 		include includes/nav.pug
 		.mode-button
-			img(src="svg/sun.svg", alt="Sun")#mode-button__svg
+			img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
 		include includes/home/carrusel.pug
 		h1.eslogan
 			| El reino de la tecnologia  a tu alcance
 		.line
 		.productos
-			+card("Computadoras", "images/home/computer.jpg", "Computadora")
-			+card("Laptops", "images/home/computadora portatil.jpg", "Laptop")
-			+card("Telefonos", "images/home/phone.jpg", "Phone")
+			+card("Computadoras", "/images/home/computer.jpg", "Computadora")
+			+card("Laptops", "/images/home/computadora portatil.jpg", "Laptop")
+			+card("Telefonos", "/images/home/phone.jpg", "Phone")
 			.line.line--grid
-			+card("Tablets", "images/home/tablet.jpg", "Tablet")
-			+card("Relojes", "images/home/Reloj.jpg", "Reloj")
-			+card("Accesorios", "images/home/audifonos.jpg", "Audifonos")
+			+card("Tablets", "/images/home/tablet.jpg", "Tablet")
+			+card("Relojes", "/images/home/Reloj.jpg", "Reloj")
+			+card("Accesorios", "/images/home/audifonos.jpg", "Audifonos")
 			.line.line--grid
-			+card("Intrumentos de cuerda", "images/home/guitar2.jpg", "Guitar")
-			+card("Intrumentos de viento", "images/home/flautas.jpg", "Flautas")
+			+card("Intrumentos de cuerda", "/images/home/guitar2.jpg", "Guitar")
+			+card("Intrumentos de viento", "/images/home/flautas.jpg", "Flautas")
 		.line
 		.footer
 			a(href="#inicio").footer__boton-de-inicio Inicio de página
-		script(src="js/carrusel.js")
-		script(src="js/mode.js")
+		script(src="/js/carrusel.js")
+		script(src="/js/mode.js")
