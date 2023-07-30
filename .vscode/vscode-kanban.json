@@ -24,6 +24,25 @@
         "name": "Salando 15"
       },
       "category": "Emprendimento",
+      "creation_time": "2023-07-28T11:42:48.988Z",
+      "description": {
+        "content": "Hacer el modo claro y oscuro",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Que funciona para todas la paginas",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "prio": 1,
+      "references": [],
+      "title": "Añadir funcionalidad al modo oscuro"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando 15"
+      },
+      "category": "Emprendimento",
       "creation_time": "2023-07-28T11:52:42.985Z",
       "id": "8",
       "prio": 1,
@@ -109,17 +128,6 @@
         "name": "Salando 15"
       },
       "category": "Emprendimento",
-      "creation_time": "2023-07-28T12:00:07.721Z",
-      "id": "11",
-      "prio": 1,
-      "references": [],
-      "title": "Maquetar page of the shop cart"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando 15"
-      },
-      "category": "Emprendimento",
       "creation_time": "2023-07-28T12:02:55.878Z",
       "description": {
         "content": "Hacer que sumen los precios en el carrito",
@@ -144,24 +152,23 @@
       "prio": 0,
       "references": [],
       "title": "Add footer"
-    },
+    }
+  ],
+  "in-progress": [
     {
       "assignedTo": {
         "name": "Salando 15"
       },
       "category": "Emprendimento",
-      "creation_time": "2023-07-28T12:03:18.914Z",
-      "description": {
-        "content": "Cambiar color al sol en modo dark",
-        "mime": "text/markdown"
-      },
-      "id": "15",
-      "prio": 0,
+      "creation_time": "2023-07-28T12:00:07.721Z",
+      "id": "11",
+      "prio": 1,
       "references": [],
-      "title": "Cambiar color al sol"
+      "title": "Maquetar page of the shop cart"
     }
   ],
-  "in-progress": [
+  "testing": [],
+  "done": [
     {
       "assignedTo": {
         "name": "Salando 15"
@@ -179,7 +186,7 @@
     },
     {
       "assignedTo": {
-        "name": "Salando 15"
+        "name": "Saul"
       },
       "category": "Emprendimento",
       "creation_time": "2023-07-28T11:43:54.882Z",
@@ -195,28 +202,6 @@
       "prio": 1,
       "references": [],
       "title": "Añadir funcionalidad nav del home"
-    }
-  ],
-  "testing": [],
-  "done": [
-    {
-      "assignedTo": {
-        "name": "Salando 15"
-      },
-      "category": "Emprendimento",
-      "creation_time": "2023-07-28T11:42:48.988Z",
-      "description": {
-        "content": "Hacer el modo claro y oscuro",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Que funciona para todas la paginas",
-        "mime": "text/markdown"
-      },
-      "id": "1",
-      "prio": 1,
-      "references": [],
-      "title": "Añadir funcionalidad al modo oscuro"
     },
     {
       "assignedTo": {
@@ -232,6 +217,21 @@
       "prio": 1,
       "references": [],
       "title": "Terminar de diseñar el home"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando 15"
+      },
+      "category": "Emprendimento",
+      "creation_time": "2023-07-28T12:03:18.914Z",
+      "description": {
+        "content": "Cambiar color al sol en modo dark",
+        "mime": "text/markdown"
+      },
+      "id": "15",
+      "prio": 0,
+      "references": [],
+      "title": "Cambiar color al sol"
     }
   ]
 }

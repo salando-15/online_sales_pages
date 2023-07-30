@@ -1,6 +1,11 @@
+#mode-button__svg{
+  transition: all .2s ease-in;
+}
+
 .container {
   background: #121212;
   transition: background .2s ease-in;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -11,7 +16,7 @@
 
 .nav__logo {
   display: flex;
-  height: 3.75rem;
+  height: 64px;
   width: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -22,7 +27,7 @@
 
 .nav__logo__container-image {
   display: block;
-  height: 100%;
+  width: 100%;
 }
 
 .nav__logo__container-image__img {
@@ -35,19 +40,63 @@
 .nav__links {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  gap: 12px;
 }
 
-.nav__links__link {
+.dropdown{
   display: flex;
-  color: #f5f5f7;
+  flex-flow: column wrap;
   align-items: center;
-  font-weight: 500;
+  flex: 1 1 auto;
+  position: relative;
   cursor: pointer;
 }
 
-.nav__links__link:hover {
+.dropdown__item{
+  color: #F5F5F7;
+}
+
+.dropdown:hover .dropdown__item{
   color: #9e8bd9;
-  font-style: italic;
+}
+
+.dropdown:hover .dropdown__menu{
+  display: flex;
+}
+
+.dropdown__menu{
+  display: none;
+  background: #3C3452;
+  position: absolute;
+  top: 1.4375rem;
+  z-index: 3;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.dropdown__menu__list{
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+.dropdown__menu__list__item{
+  list-style: none;
+  width: 100%;
+}
+
+.dropdown__menu__list__item__link{
+  display: flex;
+  text-decoration: none;
+  color: #F5F5F7;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.dropdown__menu__list__item__link:hover{
+  background: #9e8bd9;
 }
 
 .nav__carrito {
@@ -63,8 +112,8 @@
 
 .boton-carrito {
   position: relative;
-  color: #f5f5f7;
-  border: #f5f5f7 solid 2px;
+  color: #F5F5F7;
+  border: #F5F5F7 solid 2px;
   display: flex;
   padding: 4px;
   border-radius: 15px;
@@ -73,6 +122,7 @@
   padding: 4px;
   margin: 4px;
   font-weight: 400;
+  text-decoration: none;
   height: 2.75rem;
   max-height: 3.25rem;
   transition: all .2s ease-out;
@@ -98,7 +148,7 @@
   align-items: center;
   justify-content: center;
   background: #6A48D1;
-  color: #f5f5f7;
+  color: #F5F5F7;
   width: 1.9375rem;
   height: 1.5rem;
   left: 54%;
@@ -109,7 +159,7 @@
   display: flex;
   position: fixed;
   z-index: 1;
-  left: 95%;
+  right: 0.75rem;
   top: 4rem;
   cursor: pointer;
 }
@@ -122,25 +172,26 @@
   margin: 0 0 20px 0;
 }
 
+.carrusel__slider--sombreado::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, .5);
+}
+
 .carrusel__slider {
   cursor: pointer;
 }
 
 .carrusel__slider--2 {
   display: none;
+  position: relative;
 }
 
 .carrusel__slider--3 {
   display: none;
   position: relative;
-}
-
-.carrusel__slider--3::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, .4);
 }
 
 .carrusel__slider__image {
@@ -155,7 +206,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #f5f5f7;
+  color: #F5F5F7;
   transform: translate(-50%, -50%);
   font-size: 3.5rem;
   font-weight: 700;
@@ -173,12 +224,12 @@
 
 .carrusel--arrow-right {
   top: 50%;
-  left: 5%;
+  left: 3%;
 }
 
 .carrusel--arrow-left {
   top: 50%;
-  left: 95%;
+  left: 97%;
 }
 
 .eslogan {
@@ -188,17 +239,6 @@
   text-align: center;
   line-height: normal;
   transition: color .2s ease-in;
-}
-
-.line {
-  margin: 4px auto;
-  width: 95%;
-  height: 5px;
-  background: #291C52;
-}
-
-.line--grid {
-  grid-column: 1 / span 3;
 }
 
 .productos {
@@ -230,7 +270,7 @@
   display: flex;
   justify-content: center;
   color: #F5F5F7;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
 }
 
@@ -243,7 +283,7 @@
 }
 
 .card__link {
-  display: block;
+  display: flex;
   color: #F5F5F7;
   margin: 4px;
   font-weight: 400;
@@ -259,7 +299,7 @@
   display: flex;
   width: 90vw;
   background: #6A48D1;
-  padding: 20px 40px;
+  padding: 12px 0px;
   margin: 12px 0;
   border-radius: 15px;
   color: #F5F5F7;
@@ -271,4 +311,19 @@
 
 .footer__boton-de-inicio:hover {
   background: #9e8bd9;
+}
+
+.hidden{
+  display: none;
+}
+
+.line {
+  margin: 4px auto;
+  width: 95%;
+  height: 5px;
+  background: #291C52;
+}
+
+.line--grid {
+  grid-column: 1 / span 3;
 }
