@@ -1,20 +1,26 @@
 const svgMode = document.getElementById("mode-button__svg")
 const mode = document.querySelector(".mode-button")
 const container = document.querySelector(".container")
-const eslogan = document.querySelector(".eslogan")
+const textToChangeColor = document.querySelectorAll(".text--change-color")
 let dark = "true"
+
+function changeColorAllText(color){
+  textToChangeColor.forEach(text => {
+    text.style.color = color
+  })
+}
 
 mode.addEventListener("click", () => {
   if (dark === "true"){
+    changeColorAllText("#121212")
     container.style.background = "#F5F5F7"
-    eslogan.style.color = "#121212"
-    svgMode.setAttribute("src", "svg/moon.svg")
     dark = "false"
+    svgMode.setAttribute("src", "/svg/moon.svg")
   }else{
     container.style.background = "#121212"
-    eslogan.style.color = "#F5F5F7"
+    changeColorAllText("#F5F5F7")
     dark = "true"
-    svgMode.setAttribute("src", "svg/sun.svg")
+    svgMode.setAttribute("src", "/svg/sun.svg")
   }
 })
 

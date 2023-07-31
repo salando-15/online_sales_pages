@@ -6,3 +6,34 @@ html(lang="en")
     link(rel="stylesheet", href="/css/shoppingCart.css")
   body.container#inicio
     include ../includes/nav.pug
+    include ../includes/mixins.pug
+    .mode-button
+      img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
+    h2.title.text--change-color Carrito
+    .line
+    .productos-carrito
+      .productos-carrito__productos
+        p.productos-carrito__productos__details.text--change-color Detalles del pedido
+        p.productos-carrito__productos__details.text--change-color Cantidad
+        p.productos-carrito__productos__details.text--change-color Precio
+        p.productos-carrito__productos__details.text--change-color Total
+        +productoCarrito("/images/laptop-2.jpg", "Laptop", "Laptop Dell", "Laptop Dell barata", "400")
+        +productoCarrito("/images/laptop-2.jpg", "Laptop", "Laptop Dell", "Laptop Dell barata", "400")
+        +productoCarrito("/images/laptop-2.jpg", "Laptop", "Laptop Dell", "Laptop Dell barata", "400")
+      .box-buy
+        h3.box-buy__title Resumen
+        .line
+        .box-buy__cuentas
+          .box-buy--items
+            p.box-buy--items-p Subtotal
+            p.box-buy--items-p $0
+          .box-buy--items
+            p.box-buy--items-p Envio
+            p.box-buy--items-p $0
+        .line
+        .box-buy--items
+          p.box-buy--items-p Total
+          p.box-buy--items-p $0
+        .box-buy__container-button
+          .button Comprar
+    script(src="/js/mode.js")

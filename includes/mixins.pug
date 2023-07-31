@@ -4,3 +4,21 @@ mixin card(nameProducto, image, alt)
     picture
       img(src=image, alt=alt, load="lazy").card__image-container__img
     a(href="").card__link Ver más
+
+mixin productoCarrito(pathImage, alt, name, description, precio)
+  .articulo__details
+    picture.articulo__details__container-img
+      img(src=pathImage, alt=alt).articulo__details__container-img__img
+    .articulo__details__info
+      p.articulo__details__info__name.text--change-color=name
+      p.articulo__details__info__description.text--change-color=description
+  .articulo__cantidad
+    input(type="number", value="1", min="1").articulo__cantidad__input
+  p.articulo__precio.text--change-color $#{precio}
+  .articulo__total.text--change-color
+    p $1.99
+    picture.articulo__total__container-svg
+      img(src="/svg/x.svg", alt="X")
+  .line.line--grid-2
+
+

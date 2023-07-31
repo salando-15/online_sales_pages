@@ -3,7 +3,7 @@
     "pug": "^3.0.2"
   },
   "name": "paginawebemprendimiento",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "Pagina de emprendimiento",
   "main": "index.html",
   "scripts": {

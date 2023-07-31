@@ -1,0 +1,151 @@
+.title {
+  color: #F5F5F7;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 28px 0 20px 0;
+  padding: 0 0 0 36px;
+}
+
+.productos-carrito {
+  display: grid;
+  grid-template-columns: 75% 1fr;
+  gap: 1rem;
+  margin: 8px 0;
+}
+
+.box-buy {
+  display: flex;
+  flex-flow: column nowrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1.25rem;
+  background: #000000;
+  border-radius: 15px;
+  margin: 8px 16px 4px 4px;
+  height: 240px;
+  z-index: 5;
+  min-height: 240px;
+  max-height: 300px;
+}
+
+.box-buy__title {
+  color: #F5F5F7;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.box-buy__cuentas {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  margin: 8px 0;
+}
+
+.box-buy--items {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.box-buy--items-p {
+  color: #F5F5F7;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 20px;
+}
+
+.box-buy__container-button {
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos-carrito__productos {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 15%);
+  padding: 8px 4px 4px 36px;
+  gap: 4px;
+}
+
+.productos-carrito__productos__details {
+  display: flex;
+  color: #F5F5F7;
+  font-size: 20px;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.articulo__details{
+  display: flex;
+}
+
+.articulo__details__container-img{
+  display: flex;
+  margin: 0 4px 0 0 ;
+}
+
+.articulo__details__container-img__img{
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.articulo__details__info__name{
+  margin: 4px;
+  padding: 0 0 8px 0;
+  color: #F5F5F7;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.articulo__details__info__description{
+  margin: 4px;
+  color: #F5F5F7;
+  font-size: 16px;
+}
+
+.articulo__cantidad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articulo__cantidad__input{
+  display: block;
+  background: #D9D9D9;
+  color: #121212;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  height: 28px;
+  width: 56px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.articulo__precio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F5F5F7;
+}
+
+.articulo__total{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #F5F5F7;
+}
+
+.articulo__total__container-svg{
+  display: flex;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
