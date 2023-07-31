@@ -135,27 +135,7 @@
       "title": "Add footer"
     }
   ],
-  "in-progress": [
-    {
-      "assignedTo": {
-        "name": "Salando 15"
-      },
-      "category": "Emprendimento",
-      "creation_time": "2023-07-28T11:42:48.988Z",
-      "description": {
-        "content": "Hacer el modo claro y oscuro",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Que funciona para todas la paginas",
-        "mime": "text/markdown"
-      },
-      "id": "1",
-      "prio": 1,
-      "references": [],
-      "title": "Añadir funcionalidad al modo oscuro"
-    }
-  ],
+  "in-progress": [],
   "testing": [],
   "done": [
     {
@@ -232,6 +212,25 @@
       "prio": 0,
       "references": [],
       "title": "Cambiar color al sol"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando 15"
+      },
+      "category": "Emprendimento",
+      "creation_time": "2023-07-28T11:42:48.988Z",
+      "description": {
+        "content": "Hacer el modo claro y oscuro",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Que funciona para todas la paginas",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "prio": 1,
+      "references": [],
+      "title": "Añadir funcionalidad al modo oscuro"
     }
   ]
 }
