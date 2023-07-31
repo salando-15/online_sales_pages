@@ -9,14 +9,14 @@ html(lang="en")
     include ../includes/mixins.pug
     .mode-button
       img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
-    h2.title Carrito
+    h2.title.text--change-color Carrito
     .line
     .productos-carrito
       .productos-carrito__productos
-        p.productos-carrito__productos__details Detalles del pedido
-        p.productos-carrito__productos__details Cantidad
-        p.productos-carrito__productos__details Precio
-        p.productos-carrito__productos__details Total
+        p.productos-carrito__productos__details.text--change-color Detalles del pedido
+        p.productos-carrito__productos__details.text--change-color Cantidad
+        p.productos-carrito__productos__details.text--change-color Precio
+        p.productos-carrito__productos__details.text--change-color Total
         +productoCarrito("/images/laptop-2.jpg", "Laptop", "Laptop Dell", "Laptop Dell barata", "400")
         +productoCarrito("/images/laptop-2.jpg", "Laptop", "Laptop Dell", "Laptop Dell barata", "400")
         +productoCarrito("/images/laptop-2.jpg", "Laptop", "Laptop Dell", "Laptop Dell barata", "400")
