@@ -4,17 +4,23 @@ const container = document.querySelector(".container")
 const eslogan = document.querySelector(".eslogan")
 let dark = "true"
 
+function changeColorEslogan(color){
+  if (!(eslogan === null)){
+    eslogan.style.color = color
+  }
+}
+
 mode.addEventListener("click", () => {
   if (dark === "true"){
+    changeColorEslogan("#121212")
     container.style.background = "#F5F5F7"
-    eslogan.style.color = "#121212"
-    svgMode.setAttribute("src", "svg/moon.svg")
     dark = "false"
+    svgMode.setAttribute("src", "/svg/moon.svg")
   }else{
     container.style.background = "#121212"
-    eslogan.style.color = "#F5F5F7"
+    changeColorEslogan("#F5F5F7")
     dark = "true"
-    svgMode.setAttribute("src", "svg/sun.svg")
+    svgMode.setAttribute("src", "/svg/sun.svg")
   }
 })
 

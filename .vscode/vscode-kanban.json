@@ -24,25 +24,6 @@
         "name": "Salando 15"
       },
       "category": "Emprendimento",
-      "creation_time": "2023-07-28T11:42:48.988Z",
-      "description": {
-        "content": "Hacer el modo claro y oscuro",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Que funciona para todas la paginas",
-        "mime": "text/markdown"
-      },
-      "id": "1",
-      "prio": 1,
-      "references": [],
-      "title": "Añadir funcionalidad al modo oscuro"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando 15"
-      },
-      "category": "Emprendimento",
       "creation_time": "2023-07-28T11:52:42.985Z",
       "id": "8",
       "prio": 1,
@@ -160,11 +141,19 @@
         "name": "Salando 15"
       },
       "category": "Emprendimento",
-      "creation_time": "2023-07-28T12:00:07.721Z",
-      "id": "11",
+      "creation_time": "2023-07-28T11:42:48.988Z",
+      "description": {
+        "content": "Hacer el modo claro y oscuro",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Que funciona para todas la paginas",
+        "mime": "text/markdown"
+      },
+      "id": "1",
       "prio": 1,
       "references": [],
-      "title": "Maquetar page of the shop cart"
+      "title": "Añadir funcionalidad al modo oscuro"
     }
   ],
   "testing": [],
@@ -202,6 +191,17 @@
       "prio": 1,
       "references": [],
       "title": "Añadir funcionalidad nav del home"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando 15"
+      },
+      "category": "Emprendimento",
+      "creation_time": "2023-07-28T12:00:07.721Z",
+      "id": "11",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar page of the shop cart"
     },
     {
       "assignedTo": {
