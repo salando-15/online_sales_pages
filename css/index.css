@@ -178,7 +178,7 @@
   display: flex;
   position: fixed;
   z-index: 1;
-  right: 0.75rem;
+  right: 0.5rem;
   top: 4rem;
   cursor: pointer;
 }
@@ -263,14 +263,14 @@
 .productos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 12px;
 }
 
 .card {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 520px;
+  height: 32.25rem;
   margin: 20px;
   gap: 8px;
   background: #3C3452;
@@ -289,13 +289,13 @@
   display: flex;
   justify-content: center;
   color: #F5F5F7;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
 }
 
 .card__image-container__img {
   width: 100%;
-  height: 392px;
+  height: 24rem;
   -o-object-fit: cover;
   object-fit: cover;
   max-height: 24.75rem;

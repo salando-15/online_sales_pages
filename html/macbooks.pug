@@ -8,8 +8,7 @@ html(lang="en")
   body.container#inicio
     include ../includes/mixins.pug
     include ../includes/nav.pug
-    .mode-button
-      img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
+    +buttonMode
     +nameSeccion("MacBooks")
     .few-products
       +cardFewProducts("MacBook Air 15’’", "Increiblemente grande y delgado", "1299.00", "/images/macbooks/macbook_15.png", "MacBooks Air 15")

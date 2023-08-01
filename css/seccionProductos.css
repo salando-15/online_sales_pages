@@ -10,7 +10,7 @@
   flex-flow: column nowrap;
   align-items: center;
   gap: 24px;
-  margin: 36px 0;
+  margin: 36px 0 28px 0;
 }
 
 .card-few-products__name{
@@ -28,9 +28,22 @@
 }
 
 .card-few-products__price{
+  display: flex;
+  justify-content: center;
+}
+
+.card-few-products__price__price{
   color: #6A48D1;
   font-size: 28px;
   font-weight: 900;
+}
+
+.card-few-products__price__oldPrice{
+  color: #808080;
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: line-through;
+  margin: 0 12px;
 }
 
 .card-few-products__container-image__img{

@@ -8,8 +8,7 @@ html(lang="es")
 	body.container#inicio
 		include includes/mixins.pug
 		include includes/nav.pug
-		.mode-button
-			img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
+		+buttonMode
 		include includes/home/carrusel.pug
 		h1.eslogan.text--change-color
 			| El reino de la tecnologia  a tu alcance

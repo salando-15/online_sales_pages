@@ -5,6 +5,10 @@ mixin card(nameProducto, image, alt)
       img(src=image, alt=alt, load="lazy").card__image-container__img
     a(href="").card__link Ver más
 
+mixin buttonMode
+  .mode-button
+    img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
+
 mixin productoCarrito(pathImage, alt, name, description, precio)
   .articulo__details
     picture.articulo__details__container-img
@@ -35,11 +39,14 @@ mixin cardFewProducts(name, description, price, pathImage, alt)
     picture.card-few-products__container-image
       img(src=pathImage, alt=alt).card-few-products__container-image__img
 
-mixin cardFewProductsVertical(name, description, price, pathImage, alt)
+mixin cardFewProductsVertical(name, description, price, pathImage, alt, oldPrice)
   .card-few-products
     p.card-few-products__name.text--change-color=name
     p.card-few-products__description.text--change-color=description
-    p.card-few-products__price $#{price}
+    .card-few-products__price
+      p.card-few-products__price__price $#{price}
+      if oldPrice
+        p.card-few-products__price__oldPrice $#{oldPrice}
     .button Añadir al carrito
     picture.card-few-products__container-image
       img(src=pathImage, alt=alt).card-few-products__container-image__img.card-few-products__container-image__img--vertical
