@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    .mode-button
+      img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
+    +nameSeccion("iPhones")
+    .few-products
+      +cardFewProductsVertical("iPhone 14", "La batería de mayor duración de un iPhone.", "799.00", "/images/iphones/iphone14.png", "iphone 14")
+      +cardFewProductsVertical("iPhone SE", "Ama el poder.Ama el precio", "429.00", "/images/iphones/SE.png", "iPhone SE")
+      +cardFewProductsVertical("iPhone 13", "Tan asombroso como siempre", "599.00", "/images/iphones/iphone 13.png", "iPhone 13")
+      +cardFewProductsVertical("iPhone 14 Pro", "El ultimo iPhone", "999.00", "/images/iphones/iphone 14 pro.png", "iPhone 14 pro")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")

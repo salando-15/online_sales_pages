@@ -39,3 +39,10 @@
   min-height: 340px;
   object-fit: cover;
 }
+
+.card-few-products__container-image__img--vertical{
+  height: 680px;
+  object-fit: cover;
+  min-height: 560px;
+  width: auto;
+}
