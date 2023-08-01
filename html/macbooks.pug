@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    .mode-button
+      img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
+    +nameSeccion("MacBooks")
+    .few-products
+      +cardFewProducts("MacBook Air 15’’", "Increiblemente grande y delgado", "1299.00", "/images/macbooks/macbook_15.png", "MacBooks Air 15")
+      +cardFewProducts("MacBook Air", "Modelo de 13” con chip M1. La laptop Mac mas asequible para hacer trabajar desde cualquier lugar.", "999.00", "/images/macbooks/macbook_13.png", "MacBook Air 13")
+      +cardFewProducts("MacBook Air 13”", "Con chip M2.Sorprendentemente delgado y rápido para que pueda trabajar, jugar o crear en cualquier lugar.", "1099.00", "/images/macbooks/macbook.png", "Macbook")
+      +cardFewProducts("MacBook Pro 16”", "Con chip M2 Pro o M2 Max chip", "1999.00", "/images/macbooks/pro.png", "MacBook Pro")
+    .footer
+      a(href="#inicio").footer__boton-de-inicio Inicio de página
+    script(src="/js/mode.js")

@@ -1,0 +1,41 @@
+.few-proucts{
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 40px 0 0 0;
+  padding: 0 12px 32px 12px;
+}
+
+.card-few-products{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 24px;
+  margin: 36px 0;
+}
+
+.card-few-products__name{
+  color: #F5F5F7;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.card-few-products__description{
+  color: #F5F5F7;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  width: 760px;
+}
+
+.card-few-products__price{
+  color: #6A48D1;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.card-few-products__container-image__img{
+  height: 400px;
+  width: 600px;
+  min-height: 340px;
+  object-fit: cover;
+}

@@ -32,6 +32,21 @@
     },
     {
       "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:44:08.835Z",
+      "description": {
+        "content": "Dar a entender que el producto esta comprado en el producto",
+        "mime": "text/markdown"
+      },
+      "id": "18",
+      "prio": 1,
+      "references": [],
+      "title": "Feedback del producto"
+    },
+    {
+      "assignedTo": {
         "name": "Salando 15"
       },
       "category": "Emprendimento",
@@ -50,7 +65,11 @@
       "id": "5",
       "prio": 1,
       "references": [],
-      "title": "Hacer que funcione el carrito de compras"
+      "title": "Hacer que funcione el carrito de compras",
+      "details": {
+        "content": "Se tiene que añadir los productos a la pagina de carrito",
+        "mime": "text/markdown"
+      }
     },
     {
       "assignedTo": {
@@ -84,6 +103,17 @@
     },
     {
       "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:01.098Z",
+      "id": "19",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar la pagina de google pixel"
+    },
+    {
+      "assignedTo": {
         "name": "Salando 15"
       },
       "category": "Emprendimento",
@@ -103,6 +133,226 @@
       "prio": 1,
       "references": [],
       "title": "Maquetar page of the products(onlywhen there are few)"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:53:54.294Z",
+      "id": "39",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de accesorios"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:56.104Z",
+      "id": "23",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de Acer"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:49:24.141Z",
+      "id": "25",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de audifonos"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:49:33.028Z",
+      "id": "26",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de bocinas"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:53:07.888Z",
+      "id": "34",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de computadoras"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:47.397Z",
+      "id": "22",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de Dell"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:50:36.544Z",
+      "id": "27",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de Impresoras"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:51:18.026Z",
+      "id": "29",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de instrumentos de cuerda"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:51:33.572Z",
+      "id": "30",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de instrumentos de viento"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:53:14.695Z",
+      "id": "35",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de laptops"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:37.418Z",
+      "id": "21",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de Lenovo"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:50:58.487Z",
+      "id": "28",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de mmouse pad"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:52:44.299Z",
+      "id": "33",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de ofertas y promociones"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:52:00.737Z",
+      "id": "31",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de producto populares esta temporada"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:53:47.244Z",
+      "id": "38",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de relojes"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:52:27.107Z",
+      "id": "32",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de slider (esenciales para los videojuegos)"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:53:20.071Z",
+      "id": "36",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de tablets"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:49:06.186Z",
+      "id": "24",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de teclados"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:53:39.258Z",
+      "id": "37",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de telefonos"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:42:38.117Z",
+      "id": "17",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar secciones de productos"
     },
     {
       "assignedTo": {
@@ -133,6 +383,31 @@
       "prio": 0,
       "references": [],
       "title": "Add footer"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:57:14.058Z",
+      "id": "41",
+      "prio": 0,
+      "references": [],
+      "title": "Implementar BD (si se puede)"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:56:54.524Z",
+      "description": {
+        "content": "Hacer que el numero del carrito suba, cuando se compre un articulo",
+        "mime": "text/markdown"
+      },
+      "id": "40",
+      "references": [],
+      "title": "Incrementar numeros de articulos comprados"
     }
   ],
   "in-progress": [],
@@ -152,6 +427,25 @@
       "prio": 1,
       "references": [],
       "title": "add functionality to button that leads to the start"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando 15"
+      },
+      "category": "Emprendimento",
+      "creation_time": "2023-07-28T11:42:48.988Z",
+      "description": {
+        "content": "Hacer el modo claro y oscuro",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Que funciona para todas la paginas",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "prio": 1,
+      "references": [],
+      "title": "Añadir funcionalidad al modo oscuro"
     },
     {
       "assignedTo": {
@@ -215,22 +509,14 @@
     },
     {
       "assignedTo": {
-        "name": "Salando 15"
+        "name": "Salando Linux"
       },
-      "category": "Emprendimento",
-      "creation_time": "2023-07-28T11:42:48.988Z",
-      "description": {
-        "content": "Hacer el modo claro y oscuro",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Que funciona para todas la paginas",
-        "mime": "text/markdown"
-      },
-      "id": "1",
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:18.061Z",
+      "id": "20",
       "prio": 1,
       "references": [],
-      "title": "Añadir funcionalidad al modo oscuro"
+      "title": "Maquetar pagina de macbooks"
     }
   ]
 }

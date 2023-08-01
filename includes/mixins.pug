@@ -21,4 +21,16 @@ mixin productoCarrito(pathImage, alt, name, description, precio)
       img(src="/svg/x.svg", alt="X")
   .line.line--grid-2
 
+mixin nameSeccion(nameSeccion)
+  h2.title.text--change-color=nameSeccion
+  .line
 
+
+mixin cardFewProducts(name, description, price, pathImage, alt)
+  .card-few-products
+    p.card-few-products__name.text--change-color=name
+    p.card-few-products__description.text--change-color=description
+    p.card-few-products__price $#{price}
+    .button Añadir al carrito
+    picture.card-few-products__container-image
+      img(src=pathImage, alt=alt).card-few-products__container-image__img
