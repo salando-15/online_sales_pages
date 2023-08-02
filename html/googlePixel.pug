@@ -1,0 +1,19 @@
+doctype html
+html(lang="es")
+  head
+  include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Google Pixel")
+    .few-products
+      +cardFewProducts("Pixel 7a", "Alto rendimiento a un precio sorprendente.", "530.00", "/images/pixel/7a.png", "Google Pixel 7a", "559.35")
+      +cardFewProductsVertical("Pixel 7a Pro", "El teléfono de Google más pro.", "835.00", "/images/pixel/7Pro.png", "Google Pixel 7 Pro", "988.00")
+      +cardFewProductsVertical("Pixel 6a", "Inteligente, poderoso, útil.", "383.50", "/images/pixel/6a.png", "Pixel 6a")
+      +cardFewProductsVertical("Pixel 7", "Superpotente, Superútil.", "609.70", "/images/pixel/7.png", "Pixel 7")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")

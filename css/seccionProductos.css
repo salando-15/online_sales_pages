@@ -47,9 +47,9 @@
 }
 
 .card-few-products__container-image__img{
-  height: 400px;
-  width: 600px;
-  min-height: 340px;
+  height: 25rem;
+  width: 40.5rem;
+  min-height: 21.25rem;
   object-fit: cover;
 }
 
