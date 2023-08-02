@@ -1,7 +1,7 @@
 mixin card(nameProducto, image, alt)
   .card
     h2.card__title #{nameProducto}
-    picture
+    picture.card__image-container
       img(src=image, alt=alt, load="lazy").card__image-container__img
     a(href="").card__link Ver más
 
@@ -30,11 +30,13 @@ mixin nameSeccion(nameSeccion)
   .line
 
 
-mixin cardFewProducts(name, description, price, pathImage, alt)
+mixin cardFewProducts(name, description, price, pathImage, alt, oldPrice)
   .card-few-products
     p.card-few-products__name.text--change-color=name
     p.card-few-products__description.text--change-color=description
-    p.card-few-products__price $#{price}
+      p.card-few-products__price__price $#{price}
+      if oldPrice
+        p.card-few-products__price__oldPrice $#{oldPrice}
     .button Añadir al carrito
     picture.card-few-products__container-image
       img(src=pathImage, alt=alt).card-few-products__container-image__img
