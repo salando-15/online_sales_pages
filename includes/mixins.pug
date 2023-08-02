@@ -12,7 +12,7 @@ mixin buttonMode
 mixin productoCarrito(pathImage, alt, name, description, precio)
   .articulo__details
     picture.articulo__details__container-img
-      img(src=pathImage, alt=alt).articulo__details__container-img__img
+      img(src=pathImage, alt=name).articulo__details__container-img__img
     .articulo__details__info
       p.articulo__details__info__name.text--change-color=name
       p.articulo__details__info__description.text--change-color=description
@@ -34,12 +34,12 @@ mixin cardFewProducts(name, description, price, pathImage, alt, oldPrice)
   .card-few-products
     p.card-few-products__name.text--change-color=name
     p.card-few-products__description.text--change-color=description
-      p.card-few-products__price__price $#{price}
-      if oldPrice
-        p.card-few-products__price__oldPrice $#{oldPrice}
+    p.card-few-products__price__price $#{price}
+    if oldPrice
+      p.card-few-products__price__oldPrice $#{oldPrice}
     .button Añadir al carrito
     picture.card-few-products__container-image
-      img(src=pathImage, alt=alt).card-few-products__container-image__img
+      img(src=pathImage, alt=name, load="lazy").card-few-products__container-image__img
 
 mixin cardFewProductsVertical(name, description, price, pathImage, alt, oldPrice)
   .card-few-products
@@ -51,4 +51,14 @@ mixin cardFewProductsVertical(name, description, price, pathImage, alt, oldPrice
         p.card-few-products__price__oldPrice $#{oldPrice}
     .button Añadir al carrito
     picture.card-few-products__container-image
-      img(src=pathImage, alt=alt).card-few-products__container-image__img.card-few-products__container-image__img--vertical
+      img(src=pathImage, alt=name, load="lazy").card-few-products__container-image__img.card-few-products__container-image__img--vertical
+
+mixin producto(name, pathImage, alt, price, oldPrice)
+  .card.card--white
+    picture
+      img(src=pathImage, alt=name, load="lazy").card__image-container__img.card__image-container__img--product
+    p.card__title.card__title--dark=name
+    .card__precio
+      p.card__precio__price $#{price}
+      if oldPrice
+        p.card__precio__oldPrice $#{oldPrice}

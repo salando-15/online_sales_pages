@@ -7,12 +7,12 @@
 
 ::-moz-selection {
   background-color: #6A48D1;
-  color: #121212
+  color: #F5F5F7;
 }
 
 ::selection {
   background-color: #6A48D1;
-  color: #121212
+  color: #F5F5F7;
 }
 
 img,

@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Dell")
+    .productos
+      +producto("XPS 13 Plus", "/images/dell/xps_13_plus.jpg", "XPS 13 Plus", "1299.00", "1499.00")
+      +producto("XPS 13", "/images/dell/xps_13.jpg", "XPS 13", "1099.00")
+      +producto("XPS 15", "/images/dell/xps_15.jpeg", "XPS 15", "1299.00")
+      +producto("Latitude 3440", "/images/dell/latitude_3040.jpg", "Latitude 3440", "709.00", "1185.05")
+      +producto("Latitude 3540", "/images/dell/Latitude 3540.jpg", "Latitude 3540", "809.00", "1340.95")
+      +producto("Chromebook 3110 2-in-1", "/images/dell/dell chromebook.jpg", "s", "389.00")
+      +producto("Chromebook 3110", "/images/dell/chromebook.jpg", "Chromebook 3110 2-in-1", "379.00")
+      +producto("Latitude 7330 Rugged Extreme", "/images/dell/rugged extreme.jpg", "s", "3879.00")
+      +producto("Latitude 5430 Rugged", "/images/dell/Rugged.jpg", "s", "1699.00")
+      +producto("Precision 3570 Workstation", "/images/dell/precision 3570.jpg", "s", "949.00")
+      +producto("Precision 3470 Workstation", "/images/dell/precision 3470.jpg", "s", "1019.00")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
+    script(src="/js/cambiarColorProductos.js")
+  body
