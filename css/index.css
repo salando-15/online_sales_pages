@@ -292,7 +292,10 @@
 
 .card--white:hover{
   box-shadow:
-  -4px -4px 4px #6A48D1;
+  4px 4px 12px #6A48D1,
+  -4px 4px 12px #6A48D1,
+  4px -4px 12px #6A48D1,
+  -4px -4px 12px #6A48D1;
 }
 
 .card:hover .card__link {
@@ -316,6 +319,7 @@
 }
 
 .card__image-container__img {
+  background: #F5F5F7;
   width: 100%;
   height: 24.5rem;
   -o-object-fit: cover;

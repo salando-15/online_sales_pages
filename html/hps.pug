@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("HP")
+    .productos
+      +producto("HP Pavilion 15", "/images/hp/computadorapapillom.jpg", "XPS 13 Plus", "729.00")
+      +producto("HP 15", "/images/hp/hp15.jpg", "XPS 13", "500.00")
+      +producto("HP Pavilion X360", "/images/hp/papillon.jpg", "XPS 15", "700.00")
+      +producto("HP Envy 15", "/images/hp/compapillon.jpg", "Latitude 3440", "750.00")
+      +producto("HP Spectre X360", "/images/hp/compuspectre.jpg", "Latitude 3540", "1300.00")
+      +producto("HP Victius 16", "/images/hp/victus.jpg", "s", "900.00")
+      +producto("HP Pavilion Gaming", "/images/hp/pavilion gaming.png", "Chromebook 3110 2-in-1", "700.00")
+      +producto("HP Omen 15", "/images/hp/omen15.jpg", "s", "1400.00")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
+    script(src="/js/changeClases.js")
