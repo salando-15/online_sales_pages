@@ -27,11 +27,6 @@
   width: 760px;
 }
 
-.card-few-products__price{
-  display: flex;
-  justify-content: center;
-}
-
 .card-few-products__price__price{
   color: #6A48D1;
   font-size: 28px;

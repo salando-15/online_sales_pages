@@ -21,17 +21,6 @@
     },
     {
       "assignedTo": {
-        "name": "Salando 15"
-      },
-      "category": "Emprendimento",
-      "creation_time": "2023-07-28T11:52:42.985Z",
-      "id": "8",
-      "prio": 1,
-      "references": [],
-      "title": "Diseñar la pagina de los productos"
-    },
-    {
-      "assignedTo": {
         "name": "Salando Linux"
       },
       "category": "Emprendimiento",
@@ -106,55 +95,11 @@
         "name": "Salando Linux"
       },
       "category": "Emprendimiento",
-      "creation_time": "2023-07-31T15:48:01.098Z",
-      "id": "19",
-      "prio": 1,
-      "references": [],
-      "title": "Maquetar la pagina de google pixel"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando 15"
-      },
-      "category": "Emprendimento",
-      "creation_time": "2023-07-28T11:51:04.139Z",
-      "id": "6",
-      "prio": 1,
-      "references": [],
-      "title": "Maquetar la pagina del producto"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando 15"
-      },
-      "category": "Emprendimento",
-      "creation_time": "2023-07-28T11:56:19.620Z",
-      "id": "10",
-      "prio": 1,
-      "references": [],
-      "title": "Maquetar page of the products(onlywhen there are few)"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando Linux"
-      },
-      "category": "Emprendimiento",
       "creation_time": "2023-07-31T15:53:54.294Z",
       "id": "39",
       "prio": 1,
       "references": [],
       "title": "Maquetar pagina de accesorios"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando Linux"
-      },
-      "category": "Emprendimiento",
-      "creation_time": "2023-07-31T15:48:56.104Z",
-      "id": "23",
-      "prio": 1,
-      "references": [],
-      "title": "Maquetar pagina de Acer"
     },
     {
       "assignedTo": {
@@ -194,17 +139,6 @@
         "name": "Salando Linux"
       },
       "category": "Emprendimiento",
-      "creation_time": "2023-07-31T15:48:47.397Z",
-      "id": "22",
-      "prio": 1,
-      "references": [],
-      "title": "Maquetar pagina de Dell"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando Linux"
-      },
-      "category": "Emprendimiento",
       "creation_time": "2023-07-31T15:50:36.544Z",
       "id": "27",
       "prio": 1,
@@ -232,28 +166,6 @@
       "prio": 1,
       "references": [],
       "title": "Maquetar pagina de instrumentos de viento"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando Linux"
-      },
-      "category": "Emprendimiento",
-      "creation_time": "2023-07-31T15:53:14.695Z",
-      "id": "35",
-      "prio": 1,
-      "references": [],
-      "title": "Maquetar pagina de laptops"
-    },
-    {
-      "assignedTo": {
-        "name": "Salando Linux"
-      },
-      "category": "Emprendimiento",
-      "creation_time": "2023-07-31T15:48:37.418Z",
-      "id": "21",
-      "prio": 1,
-      "references": [],
-      "title": "Maquetar pagina de Lenovo"
     },
     {
       "assignedTo": {
@@ -471,11 +383,99 @@
         "name": "Salando 15"
       },
       "category": "Emprendimento",
+      "creation_time": "2023-07-28T11:52:42.985Z",
+      "id": "8",
+      "prio": 1,
+      "references": [],
+      "title": "Diseñar la pagina de los productos"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:01.098Z",
+      "id": "19",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar la pagina de google pixel"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando 15"
+      },
+      "category": "Emprendimento",
+      "creation_time": "2023-07-28T11:51:04.139Z",
+      "id": "6",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar la pagina del producto"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando 15"
+      },
+      "category": "Emprendimento",
+      "creation_time": "2023-07-28T11:56:19.620Z",
+      "id": "10",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar page of the products(onlywhen there are few)"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando 15"
+      },
+      "category": "Emprendimento",
       "creation_time": "2023-07-28T12:00:07.721Z",
       "id": "11",
       "prio": 1,
       "references": [],
       "title": "Maquetar page of the shop cart"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:56.104Z",
+      "id": "23",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de Acer"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:47.397Z",
+      "id": "22",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de Dell"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:53:14.695Z",
+      "id": "35",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de laptops"
+    },
+    {
+      "assignedTo": {
+        "name": "Salando Linux"
+      },
+      "category": "Emprendimiento",
+      "creation_time": "2023-07-31T15:48:18.061Z",
+      "id": "20",
+      "prio": 1,
+      "references": [],
+      "title": "Maquetar pagina de macbooks"
     },
     {
       "assignedTo": {
@@ -512,11 +512,11 @@
         "name": "Salando Linux"
       },
       "category": "Emprendimiento",
-      "creation_time": "2023-07-31T15:48:18.061Z",
-      "id": "20",
+      "creation_time": "2023-07-31T15:48:37.418Z",
+      "id": "21",
       "prio": 1,
       "references": [],
-      "title": "Maquetar pagina de macbooks"
+      "title": "Maquetar pagina de Lenovo"
     }
   ]
 }

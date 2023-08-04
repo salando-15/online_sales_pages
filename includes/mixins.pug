@@ -45,10 +45,9 @@ mixin cardFewProductsVertical(name, description, price, pathImage, alt, oldPrice
   .card-few-products
     p.card-few-products__name.text--change-color=name
     p.card-few-products__description.text--change-color=description
-    .card-few-products__price
-      p.card-few-products__price__price $#{price}
-      if oldPrice
-        p.card-few-products__price__oldPrice $#{oldPrice}
+    p.card-few-products__price__price $#{price}
+    if oldPrice
+      p.card-few-products__price__oldPrice $#{oldPrice}
     .button Añadir al carrito
     picture.card-few-products__container-image
       img(src=pathImage, alt=name, load="lazy").card-few-products__container-image__img.card-few-products__container-image__img--vertical

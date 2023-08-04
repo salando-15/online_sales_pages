@@ -1,0 +1,24 @@
+doctype html
+html(lang="es")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Instrumentos de Cuerda")
+    .productos
+      +producto("Guitarra", "/images/cuerda/guitar acustic.jpg", "XPS 13 Plus", "157.79")
+      +producto("Guitarra Eléctrica", "/images/cuerda/guitarra.jpg", "XPS 13", "189.99")
+      +producto("Bajo", "/images/cuerda/bajo electrico.jpg", "XPS 15", "279.99")
+      +producto("Ukelele", "/images/cuerda/ukelele.jpg", "Latitude 3440", "89.99")
+      +producto("Violín", "/images/cuerda/violin3.jpg", "Latitude 3540", "99.99")
+      +producto("Violonchelo (Cello)", "/images/cuerda/cello.jpg", "s", "1049.00")
+      +producto("Arpa", "/images/cuerda/arpa2.jpg", "s", "475.00")
+      +producto("Piano", "/images/cuerda/piano de cola2.jpg", "s", "29,399.28")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
+    script(src="/js/changeClases.js")

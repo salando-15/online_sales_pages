@@ -1,0 +1,21 @@
+doctype html
+html(lang="es")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Instrumentos de Viento")
+    .productos
+      +producto("Flauta", "/images/viento/flute.jpg", "XPS 13 Plus", "155.20", "199.99")
+      +producto("Trompeta", "/images/viento/trompeta2.jpg", "XPS 13", "249.99")
+      +producto("Clarinete", "/images/viento/clarinete.jpg", "XPS 15", "249.99")
+      +producto("Saxofón", "/images/viento/saxofon2.jpg", "Latitude 3440", "292.85")
+      +producto("Harmonica", "/images/viento/harmonica2.jpg", "Latitude 3440", "79.99")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
+    script(src="/js/changeClases.js")
