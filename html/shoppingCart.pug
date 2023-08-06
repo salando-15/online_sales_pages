@@ -7,10 +7,8 @@ html(lang="es")
   body.container#inicio
     include ../includes/nav.pug
     include ../includes/mixins.pug
-    .mode-button
-      img(src="/svg/sun.svg", alt="Sun")#mode-button__svg
-    h2.title.text--change-color Carrito
-    .line
+    +buttonMode
+    +nameSeccion("Carrito")
     .productos-carrito
       .productos-carrito__productos
         p.productos-carrito__productos__details.text--change-color Detalles del pedido

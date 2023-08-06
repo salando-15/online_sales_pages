@@ -1,0 +1,19 @@
+doctype html
+html(lang="es")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Mac")
+    .few-products
+      +cardFewProducts("Mac mini", "La computadora de escritorio Mac más asequible con un rendimiento descomunal.", "599.00", "/images/mac/mac mini.png", "Google Pixel 7a")
+      +cardFewProducts("Mac Studio", "Potente rendimiento y amplia conectividad para flujos de trabajo profesionales.", "1,999.00", "/images/mac/mac studio.png", "Google Pixel 7a")
+      +cardFewProducts("Mac Pro", "Un lugar de trabajo profesional con expansión PCI para flujos de trabajo exigentes.", "6,999.00", "/images/mac/mac pro.png", "Google Pixel 7a")
+      +cardFewProducts("iMac", "Una impresionante computadora de escritorio todo en uno para la creatividad y la productividad.", "1,299.00", "/images/mac/imac.png", "Google Pixel 7a")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")

@@ -1,0 +1,21 @@
+doctype html
+html(lang="es")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("iPad")
+    .few-products
+      +cardFewProductsVertical("iPad Pro", "La mejor experiencia de iPad con la tecnología más avanzada.", "719.99", "/images/ipads/ipad_pro.png", "Xiaomi 13 Ultra")
+      +cardFewProductsVertical("iPad Air", "Rendimiento serio en un diseño delgado y liviano.", "599.00", "/images/ipads/ipad air.png", "Xiaomi 13 Ultra")
+      +cardFewProductsVertical("iPad 10th generation", "El nuevo y colorido iPad para las cosas que haces todos los días.", "449.00", "/images/ipads/ipad 10.png", "Xiaomi 13 Ultra")
+      +cardFewProductsVertical("iPad 9th generation", "Todo lo esencial en el iPad más asequible.", "329.00", "/images/ipads/ipad 9.png", "Xiaomi 13 Ultra")
+      +cardFewProductsVertical("iPad mini", "La experiencia completa del iPad diseñada para caber en una mano.", "499.00", "/images/ipads/ipad mini.png", "Xiaomi 13 Ultra")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
+    script(src="/js/changeClases.js")

@@ -13,4 +13,7 @@ pug index.pug
 # pug html/accesoriosVideojuegos.pug && pug html/ofertas.pug && pug html/popular.pug
 
 # cards
-pug html/laptop.pug && pug html/telefonos.pug
+# pug html/laptop.pug && pug html/telefonos.pug && pug html/computadoras.pug
+# pug html/macs.pug && pug html/acer.pug
+pug html/tablets.pug && pug html/ipad.pug && pug html/tabletsLenovo.pug
+# pug html/relojes.pug && pug html/accesorios.pug

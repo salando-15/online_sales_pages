@@ -1,0 +1,19 @@
+doctype html
+html(lang="es")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Lenovo")
+    .few-products
+      +cardFewProductsVertical("Lenovo Tab M9", "Estudia de forma más inteligente.", "99.99", "/images/lenovo/tab M9.png", "Xiaomi 13 Ultra")
+      +cardFewProductsVertical("Lenovo Tab M8 Gen 4", "Entretenimiento de bolsillo para ti. Aprendizaje divertido para niños.", "94.97", "/images/lenovo/tab M8.png", "Xiaomi 13 Ultra")
+      +cardFewProductsVertical("Lenovo Yoga Tab 11", "Conoce la Lenovo Yoga Tab 11", "319.99", "/images/lenovo/yoga_tab_11.png", "Xiaomi 13 Ultra")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
+    script(src="/js/changeClases.js")

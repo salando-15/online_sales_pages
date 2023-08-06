@@ -1,0 +1,18 @@
+doctype html
+html(lang="es")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Acer")
+    .few-products
+      +cardFewProducts("Aspire XC-1660G", "La computadora de escritorio original y todo incluido.", "565.99", "/images/acer/aspire xc.png", "Google Pixel 7a")
+      +cardFewProducts("Acer Chromebox CXI5", "Sácale mucho partido a esta mini PC.", "599.99", "/images/acer/acer chromebook.png", "Google Pixel 7a")
+      +cardFewProducts("Aspire C24", "Ubicados dentro de un marco ultradelgado, los últimos procesadores Intel inyectan energía optimizada para el día a día", "599.99", "/images/acer/aspire c24.png", "Google Pixel 7a")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
