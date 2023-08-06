@@ -1,0 +1,19 @@
+doctype html
+html(lang="es")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Laptops")
+    .productos
+      +producto("HP", "/images/laptops/hp.jpg", "/html/hps.html")
+      +producto("Dell", "/images/laptops/dell.jpg", "/html/dells.html")
+      +producto("Mac", "/images/laptops/apple.png", "/html/macbooks.html")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
+    script(src="/js/changeClases.js")

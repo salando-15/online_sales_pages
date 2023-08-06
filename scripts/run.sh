@@ -10,4 +10,7 @@ pug index.pug
 # pug html/teclados.pug && pug html/audifonos.pug && pug html/impresoras.pug && pug html/bocinas.pug
 
 # Carrusel
-pug html/accesoriosVideojuegos.pug && pug html/ofertas.pug && pug html/popular.pug
+# pug html/accesoriosVideojuegos.pug && pug html/ofertas.pug && pug html/popular.pug
+
+# cards
+pug html/laptop.pug && pug html/telefonos.pug

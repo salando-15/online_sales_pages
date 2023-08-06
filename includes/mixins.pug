@@ -1,9 +1,9 @@
-mixin card(nameProducto, image, alt)
-  .card
+mixin card(nameProducto, image, link)
+  a(href=link).card
     h2.card__title #{nameProducto}
     picture.card__image-container
-      img(src=image, alt=alt, load="lazy").card__image-container__img
-    a(href="").card__link Ver más
+      img(src=image, alt=nameProducto, load="lazy").card__image-container__img
+    .card__link Ver más
 
 mixin buttonMode
   .mode-button
@@ -52,12 +52,16 @@ mixin cardFewProductsVertical(name, description, price, pathImage, alt, oldPrice
     picture.card-few-products__container-image
       img(src=pathImage, alt=name, load="lazy").card-few-products__container-image__img.card-few-products__container-image__img--vertical
 
-mixin producto(name, pathImage, alt, price, oldPrice)
-  .card.card--white
+mixin producto(name, pathImage, link, price, oldPrice)
+  a(href=link).card.card--white
     picture
       img(src=pathImage, alt=name, load="lazy").card__image-container__img.card__image-container__img--product
-    p.card__title.card__title--dark=name
-    .card__precio
-      p.card__precio__price $#{price}
-      if oldPrice
-        p.card__precio__oldPrice $#{oldPrice}
+    if link.startsWith("/")
+      p.p.card__title.card__title--dark.card__title--margin=name
+    else
+      p.card__title.card__title--dark=name
+    if price
+      .card__precio
+        p.card__precio__price $#{price}
+        if oldPrice
+          p.card__precio__oldPrice $#{oldPrice}

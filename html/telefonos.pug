@@ -1,0 +1,19 @@
+doctype html
+html(lang="es")
+  head
+    include ../includes/head.pug
+    link(rel="stylesheet", href="/css/seccionProductos.css")
+    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet", href="/css/shoppingCart.css")
+  body.container#inicio
+    include ../includes/mixins.pug
+    include ../includes/nav.pug
+    +buttonMode
+    +nameSeccion("Telefonos")
+    .productos
+      +producto("Google Pixel", "/images/telefonos/pixel.jpg", "/html/googlePixel.html")
+      +producto("Xiaomi", "/images/telefonos/xiaomi.jpg", "/html/xiaomis.html")
+      +producto("iPhone", "/images/telefonos/ios.jpg", "/html/iPhone.html")
+    include ../includes/footerButton.pug
+    script(src="/js/mode.js")
+    script(src="/js/changeClases.js")
