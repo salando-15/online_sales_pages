@@ -400,8 +400,16 @@
   margin-bottom: 12px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1252px){
+  .card__link{
+    margin: 0 0 8px 0;
+  }
+
+  .card__title{
+    padding: 4px 0;
+  }
+
   .card__image-container__img{
-    height: 18.25rem;
+    height: 21.25rem;
   }
 }

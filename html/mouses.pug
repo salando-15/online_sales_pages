@@ -1,4 +1,3 @@
-doctype html
 html(lang="es")
   head
     include ../includes/head.pug
@@ -9,13 +8,12 @@ html(lang="es")
     include ../includes/mixins.pug
     include ../includes/nav.pug
     +buttonMode
-    +nameSeccion("Instrumentos de Viento")
+    +nameSeccion("Mouses")
     .productos
-      +producto("Flauta", "/images/viento/flute.jpg", "", "155.20", "199.99")
-      +producto("Trompeta", "/images/viento/trompeta2.jpg", "", "249.99")
-      +producto("Clarinete", "/images/viento/clarinete.jpg", "", "249.99")
-      +producto("Saxofón", "/images/viento/saxofon2.jpg", "", "292.85")
-      +producto("Harmonica", "/images/viento/harmonica2.jpg", "", "79.99")
+      +producto("Logitech G203 LIGHTSYNC", "/images/mouses/logitech.jpeg", "", "23.75", "39.99")
+      +producto("Steelseries Rival 3", "/images/mouses/rival 3.jpg", "", "27.25", "29.99")
+      +producto("Glorious Model D", "/images/mouses/model d.png", "", "73.10")
+      +producto("Logitech G305 LIGHTSPEED", "/images/mouses/g305.jpg", "", "38.40")
     include ../includes/footerButton.pug
     script(src="/js/mode.js")
     script(src="/js/changeClases.js")
